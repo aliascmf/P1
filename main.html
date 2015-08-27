@@ -1,0 +1,93 @@
+﻿<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Front End Ninja</title>
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="main.css" />
+</head>
+<body>
+    <aside>
+        <section class="boxes">
+            <div class="box orange"></div>
+            <div class="box silver"></div>
+            <div class="box gray"></div>
+        </section>
+    </aside>
+    <div class="right">
+        <header>
+            <img class="logo header-img" src="images/logo.png" alt="copycat/copyright logo" />
+            <div class="name">
+                <h1 class="name-h1">Christina Ferreri</h1>
+                <h4>Front-End Ninja</h4>
+            </div>
+        </header>
+        <section class="main">
+            <img class="main-img" src="images/elly.jpg" srcset="images/elly.jpg 3008w, images/elly_small.jpg 685w" sizes="(min-width:685px) 95vw, 95vw" alt="elephant" />
+            <h3>Beautiful African Elephant makes human friends</h3>
+            <p>Visitors get a close personal glimpse of a Zambian African elephant family as they make a visit of their lodge in Luangwa National Park.</p>
+        </section>
+        <section class="featureWork">
+            <h2 class="featureWork-h2">Featured Work</h2>
+            <section class="featureWork-section">
+                <img src="images/leopard.jpg" srcset="images/leopard.jpg 1093w, images/leopard_sm.jpg 685w" sizes="(min-width:685px) 30vw, 95vw" class="works-img" alt="leopard" data-toggle="modal" data-target="#project1" />
+                <h2>Appify</h2>
+                <a href="https://github.com/udacity/Appify">https://github.com/udacity/Appify</a>
+            </section>
+            <section class="featureWork-section">
+                <img src="images/nightLion.jpg" srcset="images/nightLion.jpg 1093w, images/nightLion_sm.jpg 685w" sizes="(min-width:685px) 30vw, 95vw" class="works-img" alt="night lion" data-toggle="modal" data-target="#project2" />
+                <h2>Sunflower</h2>
+                <a href="https://github.com/udacity/Sunflower">https://github.com/udacity/Sunflower</a>
+            </section>
+            <section class="featureWork-section">
+                <img src="images/giraffe.jpg" srcset="images/giraffe.jpg 1093w, images/giraffe_sm.jpg 685w" sizes="(min-width:685px) 30vw, 95vw" class="works-img" alt="giraffe tongue" data-toggle="modal" data-target="#project3">
+                <h2>Boken</h2>
+                <a href="https://github.com/udacity/Boken">https://github.com/udacity/Boken</a>
+            </section>
+        </section>
+        <!-- Modals -->
+        <div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="project-modal-lbl1">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title" id="project-modal-lbl1">Featured Work</h4>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    </div>
+                    <div class="modal-body">
+                        <img class="modal-img" src="images/leopard.jpg" srcset="images/leopard.jpg 1093w, images/leopard_sm.jpg 685w" sizes="(min-width:685px) 30vw, 95vw" alt="feature works" />
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="project-modal-lbl2">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title" id="project-modal-lbl2">Featured Work</h4>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    </div>
+                    <div class="modal-body">
+                        <img class="modal-img" src="images/nightLion.jpg" srcset="images/nightLion.jpg 1093w, images/nightLion_sm.jpg 685w" sizes="(min-width:685px) 30vw, 95vw" alt="feature works" />
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="project-modal-lbl3">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title" id="project-modal-lbl3">Featured Work</h4>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    </div>
+                    <div class="modal-body">
+                        <img class="modal-img" src="images/giraffe.jpg" srcset="images/giraffe.jpg 1093w, images/giraffe_sm.jpg 685w" sizes="(min-width:685px) 30vw, 95vw" alt="feature works" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+</body>
+</html>
